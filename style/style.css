@@ -17,6 +17,13 @@
     cursor: pointer;
 }
 
+button:hover {
+    box-shadow: 0px 0px 10px #ff5500d0;
+    transition: .5s;
+    transform: scale(1.02);
+    color: #fff;
+}
+
 /* ESTILO TIPOGRAFIA */
 .montserrat-uniquifier {
     font-family: "Montserrat", sans-serif;
@@ -84,12 +91,6 @@ header nav ul li {
 }
 
 
-.btn-contato button:hover {
-    box-shadow: 0px 0px 10px #ff5500d0;
-    transition: .7s;
-    transform: scale(1.02);
-}
-
 /* ESTILO TOPO DO SITE */
 
 section.topo-do-site {
@@ -137,7 +138,7 @@ section.topo-do-site .flex {
 /* ESTILO ESPECIALIDADES */
 
 section.especialidades {
-    padding: 40px 4%;
+    padding: 80px 4%;
 }
 
 section.especialidades .flex{
@@ -167,3 +168,51 @@ section.especialidades .flex{
     font-size: 28px;
     margin: 20px 0;
 }
+
+/* ESTILO SOBRE */
+
+section.sobre {
+    padding: 40px 4%;
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .img-sobre img {
+    border-radius: 20px;
+}
+
+.sobre .txt-sobre {
+    color: #fff;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 35px;
+}
+
+.sobre .txt-sobre h2 span {
+    color: #ff5400;
+    display: block;
+}
+
+.sobre .txt-sobre p {
+    margin: 20px 0;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ff5400;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
