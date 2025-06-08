@@ -265,3 +265,69 @@ section.portifolio .flex {
 .overlay:hover {
     opacity: 1;
 }
+
+/* ESTILO CONTATO */
+
+section.formulario {
+    padding: 80px 4%;
+
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input {
+    width: 100%;
+    background-color: rgba(44, 44, 44, 0.675);
+    border: none;
+    outline: none;
+    padding: 20px 15px;
+    color: white;
+    border-radius: 15px;
+    font-size: 18px;
+    
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: rgba(44, 44, 44, 0.675);
+    border: none;
+    outline: none;
+    padding: 20px 15px;
+    color: white;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 250px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input[type="submit"]{
+    width: 120px;
+    background-color: #ff5400;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+form .btn-enviar input[type="submit"]:hover {
+    box-shadow: 0px 0px 10px #ff5500d0;
+    transition: .5s;
+    transform: scale(1.02);
+    color: #fff;
+}
